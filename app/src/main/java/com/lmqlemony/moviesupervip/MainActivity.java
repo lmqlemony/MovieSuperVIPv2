@@ -75,7 +75,8 @@ public class MainActivity extends AppCompatActivity {
                 handler.obtainMessage(0x0829, elements).sendToTarget();
             }
         }).start();
-
+//注释+
+        //new row
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
