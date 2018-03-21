@@ -76,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }).start();
 //注释+
-        //new row
+        //new row.
+        //未拉取时加
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
